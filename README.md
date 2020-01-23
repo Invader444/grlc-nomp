@@ -97,6 +97,7 @@ Usage
 * Coin daemon(s) (find the coin's repo and build latest version from source)
 * [Node.js](https://nodejs.org/) v12.10.3+ ([follow these installation instructions](//github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
 * [Redis](https://redis.io/) key-value store v2.6+ ([follow these instructions](https://redis.io/topics/quickstart))
+* You may need to install libgmp3-dev through your OS package manager if you run into build issues with multi-hashing.
 
 ##### Seriously
 Those are legitimate requirements. If you use old versions of Node.js or Redis that may come with your system package manager then you will have problems. Follow the linked instructions to get the last stable versions.
