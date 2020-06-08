@@ -72,19 +72,22 @@
 					<div>Username:</div>
 					<div>Password:</div>
 					{{
+						var iterations = -1;
+						
 						for (var port in info.ports){
+						iterations++;
 						var difficulty = 'Low';
-						switch( info.ports[port].diff ) {
-							case 8:
+						switch( iterations ) {
+							case 0:
 							default:
 								break;
-							case 32:
+							case 1  :
 								difficulty = 'Med';
 								break;
-							case 256:
+							case 2:
 								difficulty = 'High';
 								break;
-							case 4096:
+							case 3:
 								difficulty = 'Ultra';
 								break;
 						}
@@ -123,19 +126,22 @@
 					<div>Username:</div>
 					<div>Password:</div>
 					{{
+						var iterations = -1;
+						
 						for (var port in info.ports){
+						iterations++;
 						var difficulty = 'Low';
-						switch( info.ports[port].diff ) {
-							case 8:
+						switch( iterations ) {
+							case 0:
 							default:
 								break;
-							case 32:
+							case 1  :
 								difficulty = 'Med';
 								break;
-							case 256:
+							case 2:
 								difficulty = 'High';
 								break;
-							case 4096:
+							case 3:
 								difficulty = 'Ultra';
 								break;
 						}
