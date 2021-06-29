@@ -1,0 +1,12 @@
+{
+	"name": "Sumcoin",
+	"symbol": "SUM",
+	"algorithm": "scrypt",
+	"coinbase": "Crypto Pools by AoD Technologies LLC - https://cryptopools.aod-tech.com",
+	"peerMagic": "0d5b0caf",
+	"peerMagicTestnet": "3d7b2cdf",
+	"explorer": {
+		"txURL": "https://sumexplorer.com/tx/",
+		"blockURL": "https://sumexplorer.com/block/"
+	}
+}

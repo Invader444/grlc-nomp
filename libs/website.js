@@ -332,6 +332,9 @@ module.exports = function(logger) {
 				case 'shnd':
 					protocol = 'stronghands';
 					break;
+				case 'sum':
+					protocol = 'sumcoin';
+					break;
 				case 'vtc':
 					protocol = 'vertcoin';
 					break;
