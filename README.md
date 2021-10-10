@@ -128,6 +128,8 @@ a good pool operator. For starters be sure to read:
 
 Clone the repository and run `npm install` for all the dependencies to be installed:
 
+libsodium-dev and libboost-all-dev are needed before running npm install.
+
 ```bash
 git clone https://github.com/AoD-Technologies/cryptocurrency-pool-server.git
 cd cryptocurrency-pool-server
